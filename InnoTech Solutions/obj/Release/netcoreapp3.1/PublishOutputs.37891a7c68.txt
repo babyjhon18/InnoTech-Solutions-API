@@ -1,0 +1,20 @@
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\InnoTech Solutions.exe
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\InnoTech Solutions.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\InnoTech Solutions.deps.json
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\InnoTech Solutions.runtimeconfig.json
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\InnoTech Solutions.pdb
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.PlatformAbstractions.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\Nancy.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\System.Data.SqlClient.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x64\native\sni.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x86\native\sni.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\ictweb5.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\PubTmp\Out\ictweb5.pdb

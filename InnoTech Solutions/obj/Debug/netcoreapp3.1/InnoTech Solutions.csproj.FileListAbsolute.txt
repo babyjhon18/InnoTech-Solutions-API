@@ -1,0 +1,35 @@
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\InnoTech Solutions.exe
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\InnoTech Solutions.deps.json
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\InnoTech Solutions.runtimeconfig.json
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\InnoTech Solutions.runtimeconfig.dev.json
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\InnoTech Solutions.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\InnoTech Solutions.pdb
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\ictweb5.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\ictweb5.pdb
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Debug\netcoreapp3.1\InnoTech Solutions.AssemblyInfoInputs.cache
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Debug\netcoreapp3.1\InnoTech Solutions.AssemblyInfo.cs
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Debug\netcoreapp3.1\InnoTech Solutions.csproj.CoreCompileInputs.cache
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Debug\netcoreapp3.1\InnoTech Solutions.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Debug\netcoreapp3.1\staticwebassets\InnoTech Solutions.StaticWebAssets.Manifest.cache
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Debug\netcoreapp3.1\staticwebassets\InnoTech Solutions.StaticWebAssets.xml
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Debug\netcoreapp3.1\scopedcss\bundle\InnoTech Solutions.styles.css
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Debug\netcoreapp3.1\InnoTech Solutions.RazorTargetAssemblyInfo.cache
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Debug\netcoreapp3.1\InnoTech Solutions.csproj.CopyComplete
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Debug\netcoreapp3.1\InnoTech Solutions.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Debug\netcoreapp3.1\InnoTech Solutions.pdb
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Debug\netcoreapp3.1\InnoTech Solutions.genruntimeconfig.cache
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\bin\Debug\netcoreapp3.1\Nancy.dll
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Debug\netcoreapp3.1\InnoTech Solutions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Debug\netcoreapp3.1\InnoTech Solutions.csproj.AssemblyReference.cache
