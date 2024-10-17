@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InnoTech Solutions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ef995faf19064a6f01ae956ec4fcd33f44050de")]
 [assembly: System.Reflection.AssemblyProductAttribute("InnoTech Solutions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InnoTech Solutions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

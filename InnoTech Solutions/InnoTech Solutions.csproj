@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <Reference Include="ictweb5">
-      <HintPath>..\..\ICTWeb5\obj\Debug\ictweb5.dll</HintPath>
+      <HintPath>..\..\ICTWEB5.4\web.project\bin\ictweb5.dll</HintPath>
     </Reference>
   </ItemGroup>
 

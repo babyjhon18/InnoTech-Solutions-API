@@ -3,6 +3,7 @@ using InnoTech_Solutions.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics;
 using System.Dynamic;
 using System.Linq;
 
@@ -11,22 +12,65 @@ namespace InnoTech_Solutions.ViewModels
     public class CounterViewModel
     {
         public DeviceDataToSerialize DeviceData { get; set; }
-        public CounterViewModel(ReportViewClass report, List<string> ListOfCounters)
+        public CounterViewModel(List<ReportViewClass> reports, List<string> ListOfCounters)
         {
             DeviceDataToSerialize _DevicesData = new DeviceDataToSerialize();
             List<DataRowsClass> RowsDataDevice = new List<DataRowsClass>();
             List<int> CountersID = new List<int>();
             List<int> CountersIDForUser = new List<int>();
-            foreach (DataRow row in report.Data.Rows)
+            foreach (ReportViewClass report in reports) 
             {
-                var rowDataDevice = new DataRowsClass();
-                rowDataDevice.CounterID = Convert.ToInt32(row["CounterID"]);
-                rowDataDevice.Date_volume = DateTime.Parse(row["dtDateTime"].ToString());
-                rowDataDevice.Volume = Convert.ToDouble(row["Volume"]);
-                if (!CountersID.Contains(rowDataDevice.CounterID))
-                    CountersID.Add(rowDataDevice.CounterID);
-                RowsDataDevice.Add(rowDataDevice);
-            };
+                foreach (DataRow row in report.Data.Rows)
+                {
+                    var rowDataDevice = new DataRowsClass();
+                    rowDataDevice.CounterID = Convert.ToInt32(row["CounterID"]);
+                    if(row.Table.Columns.IndexOf("Energy1") < 0)
+                    {
+                        rowDataDevice.Date_volume = Convert.ToDateTime(row["dtDateTime"].Equals(DBNull.Value) ? 
+                            DateTime.MinValue : row["dtDateTime"]);
+                        if (rowDataDevice.Date_volume != DateTime.MinValue)
+                        {
+                            rowDataDevice.Volume1 = Convert.ToDouble(row["Volume"]);
+                            rowDataDevice.Volume2 = 0;
+                        }
+                    }
+                    else
+                    {
+                        rowDataDevice.Date_volume = Convert.ToDateTime(row["dtValuesTime"].Equals(DBNull.Value) ?
+                            DateTime.MinValue : row["dtValuesTime"]);
+                        if (rowDataDevice.Date_volume != DateTime.MinValue)
+                        {
+                            var CounterEnergoNum = row["CounterEnergoNum"].Equals(DBNull.Value) ? "" : Convert.ToString(row["CounterEnergoNum"]);
+                            if (CounterEnergoNum != "")
+                            {
+                                switch (CounterEnergoNum)
+                                {
+                                    case "1":
+                                        rowDataDevice.Volume1 = Convert.ToDouble(row["Volume1"]);
+                                        rowDataDevice.Volume2 = 0;
+                                        break;
+                                    case "2":
+                                        rowDataDevice.Volume1 = Convert.ToDouble(row["Volume2"]);
+                                        rowDataDevice.Volume2 = 0;
+                                    break;
+                                }
+                            }
+                            else
+                            {
+                                rowDataDevice.Volume1 = Convert.ToDouble(row["Volume1"]);
+                                rowDataDevice.Volume2 = Convert.ToDouble(row["Volume2"]);
+                            }
+                        }
+                    }
+                    if(rowDataDevice.Date_volume != DateTime.MinValue)
+                    {
+                        if (!CountersID.Contains(rowDataDevice.CounterID))
+                            CountersID.Add(rowDataDevice.CounterID);
+                        RowsDataDevice.Add(rowDataDevice);
+                    }
+                };
+                
+            }
             if (ListOfCounters.Count == 0)
             {
                 foreach (var counterID in CountersID)
@@ -60,9 +104,9 @@ namespace InnoTech_Solutions.ViewModels
                 {
                     values = new Values();
                     values.Date_volume = Convert.ToDateTime(Volume.Date_volume + "+03:00");
-                    values.Volume = Volume.Volume;
-                    values.Back_volume = 0;
-                    values.errors = "";
+                    values.Volume = Volume.Volume1;
+                    values.Back_volume = Volume.Volume2;
+                    //values.errors = "";
                     devices.Values.Add(values);
                 }
                 AddProperty(obj, "values", devices.Values);

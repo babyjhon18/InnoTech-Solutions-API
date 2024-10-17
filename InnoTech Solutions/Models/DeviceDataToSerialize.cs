@@ -27,9 +27,13 @@ namespace InnoTech_Solutions.Models
 
     public class Values
     {
+        public Values()
+        {
+            errors = "OK";
+        }
         public DateTime Date_volume { get; set; }
         public double Volume { get; set; }
-        public int Back_volume { get; set; }
+        public double Back_volume { get; set; }
         public string errors { get; set; }
     }
 
@@ -37,6 +41,7 @@ namespace InnoTech_Solutions.Models
     {
         public int CounterID { get; set; }
         public DateTime Date_volume { get; set; }
-        public double Volume { get; set; }
+        public double Volume1 { get; set; }
+        public double Volume2 { get; set; }
     }
 }

@@ -2,11 +2,13 @@
 using ictweb5.Domain.Interfaces;
 using ictweb5.Models;
 using ictweb5.ViewModels;
+using InnoTech_Solutions.Models;
 using InnoTech_Solutions.ViewModels;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using static InnoTech_Solutions.Domain.IInnoTechDataRepository;
 
 namespace InnoTech_Solutions.Domain.Entities
@@ -17,7 +19,7 @@ namespace InnoTech_Solutions.Domain.Entities
             base(repository)
         {
         }
-
+        //heat.objectCard.Data.Report
         public override object Data<T>(T Data, UserAccountClass user)
         {
             try
@@ -26,18 +28,38 @@ namespace InnoTech_Solutions.Domain.Entities
                 List<RegionClass> regions = new List<RegionClass>();
                 List<LocationClass> locations = new List<LocationClass>();
                 List<BaseObjectClass> objects = new List<BaseObjectClass>();
+                List<ReportViewClass> reports = new List<ReportViewClass>();
+                List<EntityClass> counters = (from counter in dataParams.ListCountersID.Split(",") 
+                                             select new EntityClass() { ID = Convert.ToInt32(counter)}).ToList();
+                foreach (var counter in counters)
+                {
+                    reports.Add(new InnoTechObjectCardDataReportSQLDataRepository(repository)
+                        .View(user, counter, new ConsumerClass(), false, ArchiveType.atCurrent, AccountingType.actNone,
+                                dataParams.Device.DateFrom, dataParams.Device.DateTo) as ReportViewClass);
+                    reports.Add(new InnoTechLocationWaterCardReportSQLDataRepository(repository)
+                       .View(user, counter, new ConsumerClass(), false, ArchiveType.atCurrent, AccountingType.actNone,
+                               dataParams.Device.DateFrom, dataParams.Device.DateTo) as ReportViewClass);
+                }
+                //reports.Add(repository.ReportEngine
+                //    .Reports["ictweb5.Domain.Reports.Water.LocationWaterCardReportSQLDataRepositoryClass"]
+                //    .View(user, regions, locations, objects
+                //    , new ConsumerClass(), false,
+                //    ArchiveType.atCurrent, AccountingType.actNone,
+                //    dataParams.Device.DateFrom,
+                //    dataParams.Device.DateTo) as ReportViewClass);
+                //reports.Add(repository.ReportEngine
+                //    .Reports["ictweb5.Domain.Reports.Heat.ObjectCardDataReportSQLDataRepositoryClass"]
+                //    .View(user, regions, locations, objects
+                //    , new ConsumerClass(), false,
+                //    ArchiveType.atCurrent, AccountingType.actHotWater,
+                //    dataParams.Device.DateFrom,
+                //    dataParams.Device.DateTo) as ReportViewClass);
                 CounterViewModel counterView =
-                    new CounterViewModel(repository.ReportEngine
-                    .Reports["ictweb5.Domain.Reports.Water.LocationWaterCardReportSQLDataRepositoryClass"]
-                    .View(user, regions, locations, objects
-                    , new ConsumerClass(), false,
-                    ArchiveType.atCurrent, AccountingType.actNone,
-                    dataParams.Device.DateFrom,
-                    dataParams.Device.DateTo) as ReportViewClass, dataParams.Device.Devices);
-               
+                    new CounterViewModel(reports, dataParams.Device.Devices);
+                
                 return counterView.DeviceData;
             }
-            catch
+            catch(Exception ex)
             {
                 return null;
             }

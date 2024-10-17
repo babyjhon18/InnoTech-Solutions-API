@@ -33,3 +33,67 @@ D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\Inno
 D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech Solutions.pdb
 D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech Solutions.genruntimeconfig.cache
 D:\Projects\InnoTech Solutions\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech Solutions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\appsettings.json
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\InnoTech Solutions.StaticWebAssets.xml
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\InnoTech Solutions.exe
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\InnoTech Solutions.deps.json
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\InnoTech Solutions.runtimeconfig.json
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\InnoTech Solutions.runtimeconfig.dev.json
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\InnoTech Solutions.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\InnoTech Solutions.pdb
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\Nancy.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\ictweb5.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Web.Mvc.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Web.Http.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Web.Helpers.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Web.WebPages.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Web.WebPages.Razor.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Web.Razor.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\ictweb5.pdb
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\ictweb5.dll.config
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Web.Mvc.xml
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Web.Http.xml
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Web.Helpers.xml
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Web.WebPages.xml
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Web.WebPages.Razor.xml
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Web.Razor.xml
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Net.Http.Formatting.xml
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\System.Web.WebPages.Deployment.xml
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\ru\System.Web.Mvc.resources.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\ru\System.Web.Helpers.resources.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\ru\System.Web.WebPages.resources.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\ru\System.Web.WebPages.Razor.resources.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\ru\System.Web.Razor.resources.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\bin\Release\netcoreapp3.1\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech Solutions.csproj.AssemblyReference.cache
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech Solutions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech Solutions.AssemblyInfoInputs.cache
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech Solutions.AssemblyInfo.cs
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech Solutions.csproj.CoreCompileInputs.cache
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech Solutions.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech Solutions.sourcelink.json
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech Solutions.RazorTargetAssemblyInfo.cache
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\staticwebassets\InnoTech Solutions.StaticWebAssets.Manifest.cache
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\staticwebassets\InnoTech Solutions.StaticWebAssets.Pack.cache
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\staticwebassets\msbuild.InnoTech Solutions.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\staticwebassets\msbuild.build.InnoTech Solutions.props
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.InnoTech Solutions.props
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.InnoTech Solutions.props
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech Solutions.dll
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech Solutions.pdb
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech Solutions.genruntimeconfig.cache
+C:\Projects\InnoTech-Solutions-API\InnoTech Solutions\obj\Release\netcoreapp3.1\InnoTech.9F3DB5F1.Up2Date
